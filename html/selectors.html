@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        .one,.two{
+            color: cadetblue;
+        }
+        .one p{
+            background-color: beige;
+        }
+        .two>p{
+            background-color: brown;
+        }
+        .three+div{
+            border: 1px solid black;
+        }
+        .three~p{
+            font-style: italic;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        <p class="three">this is first paragraph</p>
+        <div>
+            <p>paragraph</p>
+        </div>
+        <p> this is second paragraph</p>
+        <p>this is third paragraph</p>
+    </div>
+    <div class="two">
+        <p>a paragraph</p>
+    </div>
+</body>
+</html>
