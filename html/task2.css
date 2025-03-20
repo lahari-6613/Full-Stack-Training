@@ -25,9 +25,9 @@ h1,h2{
     
 }
 .img{
-    height: 150px;
-    width: 150px;
-    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
     
 }
 .row1-3,.row1-4,.row1-5{
